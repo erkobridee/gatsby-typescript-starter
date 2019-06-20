@@ -4,10 +4,8 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby's typescript starter
 </h1>
-
-**TODO:** REVIEW AND UPDATE THIS CONTENT
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
@@ -20,18 +18,28 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
     ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    # create a new Gatsby site using the typescript starter
+    gatsby new my-typescript-starter https://github.com/erkobridee/gatsby-typescript-starter
     ```
+
+    Another way to create the a new project without having the Gatsby CLI
+
+    ```sh
+    gatsby new my-typescript-starter https://github.com/erkobridee/gatsby-typescript-starter
+    ```
+
+    **TIP:** double check if you need to have the _**.git**_ directory or you should delete it
 
 1.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-default-starter/
+    cd my-typescript-starter/
     gatsby develop
     ```
+
+    or you can also use: `npm start`
 
 1.  **Open the source code and start editing!**
 
@@ -39,7 +47,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `my-typescript-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
@@ -49,6 +57,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── node_modules
     ├── src
     ├── .gitignore
+    ├── .eslintrc
     ├── .prettierrc
     ├── gatsby-browser.js
     ├── gatsby-config.js
@@ -57,6 +66,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
+    ├── tsconfig.json
     └── README.md
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
@@ -82,6 +92,22 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
+
+## 💻 Available Commands
+
+-   format the code using the prettier: `npm run format`
+
+-   lint the code using the eslint: `npm run lint`
+
+-   check the code (typings and lint): `npm run check`
+
+-   start the development server: `npm run develop` or `npm start`
+
+-   cleanup the temporary directories: `npm run clean`
+
+-   build the production output version: `npm run build`
+
+-   test the production outputed version: `npm run serve`
 
 ## 🎓 Learning Gatsby
 
