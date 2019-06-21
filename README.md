@@ -116,3 +116,9 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 -   **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 -   **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+
+## 📝 Notes
+
+-   the project uses sass and the postcss with autoprefixer support and related to this last one there is an open issue related to the warning message showed on the terminal `BrowserslistError: Unknown browser query 'android all'` ( [browserslist issue #382](https://github.com/browserslist/browserslist/issues/382) )
+
+-   the project has the configuration to be able to use absolute imports on the code ( [Gatsby Docs - Absolute imports](https://www.gatsbyjs.org/docs/add-custom-webpack-config/#absolute-imports) )

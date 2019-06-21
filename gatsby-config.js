@@ -1,3 +1,5 @@
+const postcssPresetEnv = require('postcss-preset-env');
+
 module.exports = {
 	siteMetadata: {
 		title: `Gatsby TypeScript Default Starter`,
@@ -27,7 +29,13 @@ module.exports = {
 				icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
 			},
 		},
-		`gatsby-plugin-sass`,
+		{
+			resolve: `gatsby-plugin-sass`,
+			options: {
+				precision: 10,
+				postCssPlugins: [postcssPresetEnv()],
+			},
+		},
 		`gatsby-plugin-typescript`,
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.dev/offline
