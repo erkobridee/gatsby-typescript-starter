@@ -2,7 +2,7 @@ const postcssPresetEnv = require('postcss-preset-env');
 
 module.exports = {
 	siteMetadata: {
-		title: `Gatsby TypeScript Default Starter`,
+		title: `Gatsby TypeScript Starter`,
 		description: `Kick off your next, great Gatsby typescript project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
 		author: `@erkobridee`,
 	},
