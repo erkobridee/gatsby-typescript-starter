@@ -25,7 +25,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Another way to create the a new project without having the Gatsby CLI
 
     ```sh
-    gatsby new my-typescript-starter https://github.com/erkobridee/gatsby-typescript-starter
+    npx gatsby new my-typescript-starter https://github.com/erkobridee/gatsby-typescript-starter
     ```
 
     **TIP:** double check if you need to have the _**.git**_ directory or you should delete it
