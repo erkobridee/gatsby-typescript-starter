@@ -18,7 +18,7 @@ const Image = () => {
     }
   `);
 
-  return <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} alt="gatsby-astronaut"/>;
+  return <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} alt="gatsby-astronaut" />;
 };
 
 export default Image;
